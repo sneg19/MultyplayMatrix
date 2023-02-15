@@ -1,0 +1,15 @@
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.csproj.AssemblyReference.cache
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.GeneratedMSBuildEditorConfig.editorconfig
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.AssemblyInfoInputs.cache
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.AssemblyInfo.cs
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.csproj.CoreCompileInputs.cache
+/home/sneg/Documents/C#/Proizvedenie/bin/Debug/net7.0/Proizvedenie
+/home/sneg/Documents/C#/Proizvedenie/bin/Debug/net7.0/Proizvedenie.deps.json
+/home/sneg/Documents/C#/Proizvedenie/bin/Debug/net7.0/Proizvedenie.runtimeconfig.json
+/home/sneg/Documents/C#/Proizvedenie/bin/Debug/net7.0/Proizvedenie.dll
+/home/sneg/Documents/C#/Proizvedenie/bin/Debug/net7.0/Proizvedenie.pdb
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.dll
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/refint/Proizvedenie.dll
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.pdb
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/Proizvedenie.genruntimeconfig.cache
+/home/sneg/Documents/C#/Proizvedenie/obj/Debug/net7.0/ref/Proizvedenie.dll
