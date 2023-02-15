@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eWUoHIMZ4OwL//jclzawWh/W79r8+d6I93firDy6CaL8ywMuG1hlliFk13hXOV4mNV9FyeYOBMJW2aSMKQzHpQ==",
+  "success": true,
+  "projectFilePath": "/home/sneg/Documents/C#/Proizvedenie/Proizvedenie.csproj",
+  "expectedPackageFiles": [
+    "/home/sneg/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
