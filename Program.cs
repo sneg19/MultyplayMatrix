@@ -6,16 +6,20 @@
 // 18 20
 // 15 18
 
-int[,] GetArray() // Генерация двумерного массива
+// 1. Сгенерировать массивы;
+// 2. Перемножить каждый элемент первой строки массива 1
+//    с первым элементом колонки 1 массива 2;
+// 3. Записать результат в результирующий массив;
+// 4. Вывести результурующий массив;
+
+int[,] GetArray(int m, int n, int minValue, int maxValue) // Генерация двумерного массива
 {
-    int m = new Random().Next();
-    int n = new Random().Next();
     int[,] result = new int[m, n];
     for (int row = 0; row < m; row++)
     {
         for (int column = 0; column < n; column++)
         {
-            result[row, column] = new Random().Next();
+            result[row, column] = new Random().Next(minValue, maxValue);
         }
     }
     return result;
@@ -42,7 +46,7 @@ int[,] MultiplayMatrix(int[,] matrix, int[,] inMatrix)
         {   
             for(int oneRow = 0; oneRow < inMatrix.GetLength(0); oneRow++)
             {
-                resultMatrix[row, oneRow] = matrix[row, oneRow] * inMatrix[oneRow, column];
+                resultMatrix[row, column] += matrix[row, oneRow] * inMatrix[oneRow, column];
             }
         }
     } 
@@ -51,9 +55,9 @@ int[,] MultiplayMatrix(int[,] matrix, int[,] inMatrix)
 
 void Main()
 {
-    Console.Clear();
-    int[,] ourMatrix = GetArray();
-    int[,] doubleMatrix = GetArray();
+    
+    int[,] ourMatrix = GetArray(3, 4, 0, 10);
+    int[,] doubleMatrix = GetArray(4, 3, 0, 10);
     if(ourMatrix.GetLength(0) != doubleMatrix.GetLength(1))
     { 
         System.Console.WriteLine("Невозможно перемножить данные матрицы");
